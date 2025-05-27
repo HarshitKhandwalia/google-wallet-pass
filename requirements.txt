@@ -1,0 +1,12 @@
+Django>=4.2.0
+djangorestframework>=3.14.0
+PyJWT>=2.8.0
+requests>=2.31.0
+google-auth>=1.24.0,<2.0dev  # Updated to be compatible with other Google packages
+google-api-core>=1.25.1
+google-cloud-core>=1.7.1
+google-cloud-storage>=1.31.0
+qrcode>=7.4.2
+cloudinary>=1.37.0
+Pillow>=10.0.0  # Required for QR code generation
+python-dotenv>=1.0.0  # For environment variable management 
