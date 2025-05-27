@@ -9,3 +9,5 @@ class Employee(models.Model):
     
     def __str__(self):
         return f"{self.emp_id} - {self.name}"
+    
+    
