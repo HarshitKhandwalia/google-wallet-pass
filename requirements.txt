@@ -11,3 +11,4 @@ cloudinary>=1.37.0
 Pillow>=10.0.0  # Required for QR code generation
 python-dotenv>=1.0.0  # For environment variable management 
 django-cors-headers
+cryptography>=41.0.0  # Required for RS256 algorithm in JWT 
